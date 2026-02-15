@@ -1,18 +1,24 @@
 # 🌦️ Automated Weather Notifier
 A Python script that fetches real-time weather data and sends a desktop notification with personalized advice (e.g., "Bring an umbrella").
 
-## Prerequisite
-Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) to get your API key.
-
 ## Features
 - Fetches data from OpenWeatherMap API.
 - Uses `.env` for secure configuration.
 - Desktop notifications via `plyer`.
 
+## Prerequisite
+Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) to get your API key.
+
 ## Setup
 1. Clone this repo.
 2. Install requirements: `pip install -r requirements.txt`
 3. Create a `.env` file and add your `WEATHER_API_KEY` and `CITY_NAME`.
+
+## Usage
+Run the script using Python:
+```bash
+python weather_alert.py
+```
 
 ## 🚀 Automation
 
@@ -30,10 +36,7 @@ To get weather alerts every morning without running the script manually:
 2. Add the following line to run at 8:00 AM daily:
    `00 08 * * * /usr/bin/python3 /absolute/path/to/weather_alert.py`
 
-## Usage
-Run the script using Python:
-```bash
-python weather_alert.py 
+
 
 
 
