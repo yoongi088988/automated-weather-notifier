@@ -8,5 +8,12 @@ A Python script that fetches real-time weather data and sends a desktop notifica
 
 ## Setup
 1. Clone this repo.
-2. Install requirements: `pip install requests plyer python-dotenv`
+2. Install requirements: `pip install -r requirements.txt`
 3. Create a `.env` file and add your `WEATHER_API_KEY` and `CITY_NAME`.
+
+## Usage
+Run the script using Python:
+```bash
+python weather_alert.py
+
+* **Prerequisite:** Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) to get your API key.
