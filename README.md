@@ -16,4 +16,5 @@ Run the script using Python:
 ```bash
 python weather_alert.py
 
-* **Prerequisite:** Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) to get your API key.
+## Prerequisite
+Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) to get your API key.
