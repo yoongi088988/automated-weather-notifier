@@ -14,7 +14,7 @@ A Python script that fetches real-time weather data and sends a desktop notifica
 ## Usage
 Run the script using Python:
 ```bash
-python weather_alert.py
+python weather_alert.py ```
 
 ## Prerequisite
 Sign up for a free account at [OpenWeatherMap](https://openweathermap.org/api) to get your API key.
